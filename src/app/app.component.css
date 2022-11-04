@@ -1,0 +1,29 @@
+.table-container{
+  width: 65%;
+}
+
+.home-image-container{
+  height: 15rem;
+  overflow: hidden;
+}
+
+.home-image{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: 5px solid #000;
+}
+
+.footer-spacer{
+  height: 5rem;
+  width: 100%;
+
+}
+
+.plant-footer{
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+}
