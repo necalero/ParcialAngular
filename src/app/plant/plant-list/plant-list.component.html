@@ -1,6 +1,6 @@
 <table class="table">
   <thead>
-    <tr class="table-dark">
+    <tr class="table-dark header-row">
       <th scope="col">#</th>
       <th scope="col">Nombre Comun</th>
       <th scope="col">Tipo</th>
@@ -8,7 +8,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let plant of plants">
+    <tr class="plant-row" *ngFor="let plant of plants">
       <th scope="row">{{plant.id}}</th>
       <td>{{plant.nombre_comun}}</td>
       <td>{{plant.tipo}}</td>
